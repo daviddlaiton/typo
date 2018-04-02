@@ -9,6 +9,7 @@ export default class Ranking extends Component {
 		this.state = {
 			currentPage: 1
 		};
+		//Me parece muy chevere que incluyan un máximo de datos por página, hace mejor la experiencia del usuario.
 		this.perPage = 5;
 		this.handlePageChange = this.handlePageChange.bind(this);
 	}
